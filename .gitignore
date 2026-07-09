@@ -1,0 +1,12 @@
+## Ignore Visual Studio Temporary files and build folders
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.db
+*.opendb
+Progect .2ff8ff8f/
