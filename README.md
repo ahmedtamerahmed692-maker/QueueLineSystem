@@ -11,16 +11,16 @@ The codebase is organized into clean, physical namespaces to separate core data 
 ### Key Components
 
 #### 1. Data Structures (Core Entities)
-*   **[clsDblLinkedList.h](file:///c:/Users/hp/source/repos/Progect%201%20cousrew%2013/Core/clsDblLinkedList.h):** A custom doubly linked list template supporting dynamic insertions, deletions, and in-place reversing.
-*   **[clsDynamicArray.h](file:///c:/Users/hp/source/repos/Progect%201%20cousrew%2013/Core/clsDynamicArray.h):** A memory-safe dynamic array template featuring bounds checking, safety constructors/destructors, and memory resizing routines.
-*   **[clsMyQueue.h](file:///c:/Users/hp/source/repos/Progect%201%20cousrew%2013/Core/clsMyQueue.h) & [clsMyQueueArr.h](file:///c:/Users/hp/source/repos/Progect%201%20cousrew%2013/Core/clsMyQueueArr.h):** Queue adapters (FIFO) implemented using both Doubly Linked List and Dynamic Array backends.
-*   **[clsMyStack.h](file:///c:/Users/hp/source/repos/Progect%201%20cousrew%2013/Core/clsMyStack.h) & [clsMyStackArr.h](file:///c:/Users/hp/source/repos/Progect%201%20cousrew%2013/Core/clsMyStackArr.h):** Stack adapters (LIFO) derived from Queue backends.
+*   **[clsDblLinkedList.h](Core/clsDblLinkedList.h):** A custom doubly linked list template supporting dynamic insertions, deletions, and in-place reversing.
+*   **[clsDynamicArray.h](Core/clsDynamicArray.h):** A memory-safe dynamic array template featuring bounds checking, safety constructors/destructors, and memory resizing routines.
+*   **[clsMyQueue.h](Core/clsMyQueue.h) & [clsMyQueueArr.h](Core/clsMyQueueArr.h):** Queue adapters (FIFO) implemented using both Doubly Linked List and Dynamic Array backends.
+*   **[clsMyStack.h](Core/clsMyStack.h) & [clsMyStackArr.h](Core/clsMyStackArr.h):** Stack adapters (LIFO) derived from Queue backends.
 
 #### 2. Service Queue Simulator
-*   **[clsQueueLine.h](file:///c:/Users/hp/source/repos/Progect%201%20cousrew%2013/Core/clsQueueLine.h):** A simulation manager for bank/bill queues. It encapsulates ticket issuance (`clsTicket`), client serving logic, queue state reporting (`PrintInfo`), and queue layouts (RTL/LTR printing using standard queues and stacks).
+*   **[clsQueueLine.h](Core/clsQueueLine.h):** A simulation manager for bank/bill queues. It encapsulates ticket issuance (`clsTicket`), client serving logic, queue state reporting (`PrintInfo`), and queue layouts (RTL/LTR printing using standard queues and stacks).
 
 #### 3. Utilities
-*   **[clsMyString.h](file:///c:/Users/hp/source/repos/Progect%201%20cousrew%2013/Utils/clsMyString.h):** A custom string utility implementing **Undo/Redo** transaction logic using LIFO stack operations.
+*   **[clsMyString.h](Utils/clsMyString.h):** A custom string utility implementing **Undo/Redo** transaction logic using LIFO stack operations.
 
 ---
 
